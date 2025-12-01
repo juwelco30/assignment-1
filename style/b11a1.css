@@ -1,9 +1,9 @@
-*{
+/* *{
     margin-top: 5px;
     margin-bottom: 5px;
     margin-left: 160px;
     margin-right: 160px;
-}
+} */
 
 .fira-sans-thin {
   font-family: "Fira Sans", sans-serif;
@@ -112,11 +112,141 @@
   font-weight: 900;
   font-style: italic;
 }
+
+.header{
+    
+}
+.div-1{
+    padding: 117px 60px;
+}
+.New{
+    color: white;
+    background-color:#006A50;
+    padding:17px 34px;
+    border-radius: 10px;
+}
+.div-2{
+    padding: 80px 60px;
+
+}
 .sign{
     display: flex;
     justify-content: space-between;
+     margin-right: 160px;
+    margin-left: 160px;
 }
+
 .body{
     display: flex;
     justify-content: space-between;
+    background-color: #C6E4D6;
+     margin-right: 160px;
+    margin-left: 160px;
+}
+.in{
+    font-size: 18px;
+   font-weight: 400;
+   margin: 20px;
+    color: #006A50;
+    border:1px solid #006A50;
+    border-radius: 5px;
+    padding: 15px 30px;
+}
+.main{
+     margin-right: 160px;
+    margin-left: 160px;
+   
+}
+.Pillars{
+    margin-top: 80px;
+}
+.vosion{
+    margin-top: 80px;
+}
+.pillar{
+    display: flex;
+    gap: 24px;
+   
+    
+}
+.card{
+    box-shadow:  0 8px 16px 0 rgba(0,0,0,0.2);
+     padding:24px;
+     gap: 5px;
+     border-radius: 1px;
+}
+
+.learn{
+    
+     gap:24px; 
+     display: flex; 
+     
+}
+.Digtal{
+   background-color: #BBD1F5;
+   border-radius: 10px;
+   gap: 24px; 
+   padding: 32px;
+   
+}
+.btn-1{
+    color: white;
+    background-color: #5490F5;
+    border-radius: 10px;
+    padding: 10px;
+    
+}
+.Green{
+     background-color: #C6E4D6;
+   border-radius: 10px;
+   gap: 24px;
+   padding: 32px;
+}
+.Green button{
+     color: white;
+    background-color: #09A15C;
+    border-radius: 10px;
+    padding: 10px; 
+}
+.Modern{
+    background-color: #F7EBCF;
+   border-radius: 10px;
+   gap: 24px;
+   padding: 32px;
+}
+.btn-3{
+     color: white;
+    background-color: #FFC239;
+    border-radius: 10px;
+    padding: 10px; 
+}
+.yunus{
+    background-image: url(../assets/quote-bg.png);
+    background-repeat: no-repeat;
+    padding: 10px 26px;
+    margin-top: 32px;
+}
+.Qu{
+     margin-top: 32px;
+    padding: auto;
+}
+.table{
+     border: 1px solid #ccc;
+      border-radius: 5px;
+       max-width: auto;
+}
+.thead{
+    background-color: #e0f2e0;
+     padding: 15px; 
+     display: flex;
+    justify-content:space-between; 
+    border-radius:top left 5px, top right 5px; 
+    font-weight: bold;
+}
+.tbody-1{
+    display: flex; justify-content: space-between; 
+    align-items: center; padding: 15px 0; border-bottom: 1px solid #eee;
+}
+.tbody-2{
+    display: flex; justify-content: space-between; align-items: center; padding: 15px 0; border-bottom: 1px solid #eee;
 }
